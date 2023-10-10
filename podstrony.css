@@ -1,0 +1,233 @@
+body{
+	background-color: #0f6d0f;
+	/*background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");*/
+	color:white;
+	text-shadow:1px 1px black;
+	font-family: Arial;
+	margin: 0;
+	cursor:url(pliki/domyslny.cur), pointer;
+}
+#motto{
+	text-align:center;
+}
+h1{
+	font-family: sans-serif;
+	color:white;
+    font-size: 50px;
+	text-align: center;
+	text-shadow:2px 2px black;
+}
+a img{
+		cursor:url(pliki/Move.cur), pointer;
+}
+img{
+	padding:2px;
+	margin:2px;
+	border: 2px solid #336600;
+	border-radius:12px;	
+}
+
+#main{
+	padding:2px;
+	margin: 2px;
+	text-align:center;
+	background-color: #5c3300;
+	background-image: url("https://www.transparenttextures.com/patterns/shley-tree-1.png");
+	border-radius:12px;
+}
+#powrot{
+	float:right;
+	cursor:url(pliki/Move.cur), pointer;
+}
+#powrot2{
+	cursor:url(pliki/Move.cur), pointer;
+}
+.flags{
+	width:200px;
+	height:200px;
+	float:left;
+	display:blocks1;
+	margin:20px;
+	margin-left:94px;
+	cursor:url(pliki/Move.cur), pointer;
+	
+}
+.blocks1
+{
+	margin:20px;
+	margin-bottom:17%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+	cursor:url(pliki/Move.cur), pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+		cursor:url(pliki/Move.cur), pointer;
+	  position: absolute;
+	  top: 40%;
+	  width: auto;
+	  padding: 16px;
+	  margin-top: -50px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 20px;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	 -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+	text-align: center;
+	background-color: #5c3300;
+	background-image: url("https://www.transparenttextures.com/patterns/shley-tree-1.png");
+	padding: 2px 16px;
+	color: white;
+	border-radius:20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.heroes{
+	background-color: #5c3300;
+	background-image: url("https://www.transparenttextures.com/patterns/shley-tree-1.png");
+}
+.heroes:hover{
+background-color: #007700;
+	background-image: url("https://www.transparenttextures.com/patterns/shley-tree-1.png");
+}
+th{
+	text-align:center;
+	font-size:30px;
+}
+th img{
+    width:180px;
+    height:200px;
+}
+table {
+    vertical-align: top;
+	width:40%;
+	display: table;
+	border: 2px solid #336600;
+	border-radius:12px;	
+	float:left;
+	margin-left: 7%;
+	margin-top:2%;
+	height: 250px;
+}
+#academy_h{
+	display:none;
+	width:100%;
+	height:100%;
+}
+#necropolis_h{
+	display:none;
+	width:100%;
+	height:100%;
+}
+#dungeon_h{
+	display:none;
+	width:100%;
+	height:100%;
+}
+#sylvan_h{
+	display:none;
+	width:100%;
+	height:100%;
+}
+#haven_h{
+	display:none;
+	width:100%;
+	height:100%;
+}
+#inferno_h{
+	display:none;
+	width:100%;
+	height:100%;
+}
+#stronghold_h{
+	display:none;
+	width:100%;
+	height:100%;
+}
+#fortress_h{
+	display:none;
+	width:100%;
+	height:100%;
+}
+.units {
+    vertical-align: top;
+    width: 29%;
+    display: table;
+    border: 2px solid #336600;
+    border-radius: 12px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+	margin-bottom: 2%;
+    height: 350px;
+}
