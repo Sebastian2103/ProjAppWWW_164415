@@ -10,9 +10,11 @@ h1{
 	text-shadow:2px 2px black;
 }
 ul {
-margin-left:384px ;
-padding: 0;
-list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    width: 200px;
+    list-style: none;
 }
 button{
 display: block;
@@ -34,8 +36,8 @@ background:#006600 ;
 border: 1px solid blue;
 }
 .nav {
- width: 1910px;
  float: center;
+ display:relative;
 }
 .header {
 	width: 1910px;
@@ -56,9 +58,13 @@ img
 .blocks1{
 	border:1px;
 }
-.vd{
-	width: 1920px;
-	align:center;
+.id{
+
+	display: contents;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 video{
@@ -66,7 +72,7 @@ video{
 	margin:10px;
 	border: 2px solid #336600;
 	border-radius:12px;
-	margin-left:14%;
+
 }
 #lista{
 	float: left;
@@ -82,4 +88,11 @@ text-decoration: none;
 }
 #lista1{
 	margin-left: 14.5%;
+}
+.main{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

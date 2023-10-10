@@ -20,6 +20,11 @@ h1{
 a img{
 		cursor:url(pliki/Move.cur), pointer;
 }
+a{
+text-align: center;
+color: white;
+text-decoration: none;
+}
 img{
 	padding:2px;
 	margin:2px;
@@ -66,25 +71,6 @@ img {
   vertical-align: middle;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-	display: none;
-	margin-left: 9%;
-	margin-right: 9%;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-	cursor:url(pliki/Move.cur), pointer;
-}
-
-/* Next & previous buttons */
-.prev,
 .next {
 		cursor:url(pliki/Move.cur), pointer;
 	  position: absolute;
@@ -100,58 +86,6 @@ img {
 	 -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-	text-align: center;
-	background-color: #5c3300;
-	background-image: url("https://www.transparenttextures.com/patterns/shley-tree-1.png");
-	padding: 2px 16px;
-	color: white;
-	border-radius:20px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 20%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
 .heroes{
 	background-color: #5c3300;
 	background-image: url("https://www.transparenttextures.com/patterns/shley-tree-1.png");
@@ -178,6 +112,47 @@ table {
 	margin-left: 7%;
 	margin-top:2%;
 	height: 250px;
+}
+
+.units {
+    vertical-align: top;
+    width: 29%;
+    display: table;
+    border: 2px solid #336600;
+    border-radius: 12px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+	margin-bottom: 2%;
+    height: 350px;
+}
+.nav {
+ width: 1910px;
+ float: center;
+}
+ul {
+margin-left:224px ;
+padding: 0;
+list-style: none;
+}
+button{
+display: block;
+text-align: center;
+font-size: 1.2em;
+width: 180px;
+color: white;
+background-color:#003300;
+padding: 10px 15px;
+margin: 0px 1px 1px 0px;
+border: 1px solid navy;
+border-radius: 3px;
+transition: background-color .5s;
+float:left;
+}
+button:hover{
+color: white;
+background:#006600 ;
+border: 1px solid blue;
 }
 #academy_h{
 	display:none;
