@@ -7,10 +7,10 @@
 <meta name="Author" content="Sebastian Pająk" />
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="kolorujtlo.js" type="text/javascript"></script>
-<script src="timedate.js" type="text/javascript"></script>
+<script src="timedate.js" defer></script>
 <title>Heroes Might &amp Magic V </title>
 </head>
-<body onload="startclock()">
+<body>
 	<div class="main">
 	<div class="nav">
 			<form method="POST" name="Background">
@@ -24,9 +24,8 @@
 			<input type="button" value = "czerwony" onclick = "changeBackground('#FF0000')">
 		</form>
 	</div>
-	        <div id="date">
-                <div id="watch">dd</div>
-            </div>
+	        <div id="date"></div>
+            <div id="watch">ss<br><br><br><br><br><br></div>
 	</div>
 	
 </body>

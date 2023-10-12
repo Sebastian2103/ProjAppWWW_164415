@@ -1,26 +1,27 @@
 
-function gettheDate()
+function getTheDate()
 {
-	Todays = new Date();
-	TheDate = "" + (Todays.getMonth()+1)+" / " +Todays.getDate() + " / " +(Today.getYear() -100);
-	document.getElementById("data").innerHTML = TheDate;
+    Todays = new Date();
+    TheDate = "" +Todays.getDate() + " / "+ (Todays.getMonth() + 1)  +  " / " + (Todays.getYear() - 100);
+    document.getElementById("date").innerText = TheDate;
 }
 
-var timerId = null;
+var timerID = null;
 var timerRunning = false;
 
-function stopclock()
+function stopClock()
 {
-	if(timerRunning)
-		clearTimeout(timerID);
-	timerRunning = false;
+    if(timerRunning)
+        clearTimeout(timerID);
+
+    timerRunning = false;
 }
 
-function startclock()
+function startClock()
 {
-	stopclock();
-	gettheDate()
-	showtime();
+    stopClock();
+    getTheDate();
+    showTime();
 }
 
 function showTime()
@@ -40,3 +41,4 @@ function showTime()
 }
 
 showTime();
+getTheDate();
