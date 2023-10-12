@@ -1,5 +1,4 @@
 body{
-	background-color: #0f6d0f;
 	color:white;
 	text-shadow:1px 1px black;
 }
@@ -95,4 +94,5 @@ text-decoration: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+	background-color: #0f6d0f;
 }
