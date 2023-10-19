@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="pl" />
+<meta name="Author" content="Sebastian Pająk" />
+<link rel="stylesheet" type="text/css" href="style1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="timedate.js" defer></script>
+<title>Heroes Might &amp Magic V </title>
+</head>
+<body>
+	<div id="animacjatestowa1" class="test-block">kliknij, a sie powieksze</div>
+	
+	<script>
+		$("#animacjatestowa1").on("click", function(){
+		$(this).animate({
+		width: "500px",
+		opacity: 0.4,
+		fontsize: "3em",
+		borderwidth: "10px"
+		}, 1500);
+		});
+	</script>
+	
+	<div id="animacjaTestowa2" class="test-block">
+	Najedz kursorem, a sie powieksze
+	</div>
+	<script>
+	$("#animacjaTestowa2").on({
+	"mouseover" : function(){
+	$(this).animate({
+	width: 300
+	}, 800);
+	},
+	"mouseout" : function(){
+		$(this).animate({
+	width: 200
+	}, 800);
+	}
+	});
+	</script>
+
+	
+	<div id="animacjaTestowa3" class="test-block">
+	Klikaj, abym urósł
+	</div>
+	<script>
+	$("#animacjaTestowa3").on("click", function(){
+		if (!$(this).is(":animated")) {
+			$(this).animate({
+			width: "+=" + 50,
+			height: "+=" + 10,
+			opacity: "-=" + 0.1,
+			duration: 3000 
+		});
+	}
+	});
+	</script>
+	
+</body>
+</html>
