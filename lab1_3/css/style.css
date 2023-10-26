@@ -1,0 +1,128 @@
+body{
+	color:rgb(255, 255, 255);
+	background-color: #0f6d0f;
+	background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+	text-shadow:1px 1px black;
+	cursor:url(../pliki/domyslny.cur), pointer;
+
+
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	color : white;
+	text-shadow:2px 2px black;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+li{
+	margin: 0 3px;
+}
+button{
+font-size: 1.2em;
+color: white;
+background-color:#003300;
+padding: 10px 15px;
+margin: 0px 1px 1px 0px;
+border: 1px solid navy;
+border-radius: 3px;
+transition: background-color .5s;
+width: 150px;
+}
+button:hover{
+color: white;
+background:#006600 ;
+border: 1px solid blue;
+cursor:url(../pliki/Move.cur), pointer;
+}
+.nav {
+	display: flex;
+	justify-content: space-around;
+}
+@media (max-width: 768px) {
+	.nav {
+	  flex-direction: column;
+	  align-items: flex-start;
+	}
+	
+	ul {
+	  flex-direction: column; 
+	}
+	
+	li {
+	  margin: 10px 0;
+
+	}
+	.main{
+		align-items: flex-start;
+
+	}
+  }
+p{
+	font-size:20px;
+}
+img
+{
+	border:1px #556B2E;
+}
+.image{
+ border:1em;
+}
+.blocks1{
+	display: flex;
+	justify-content: left;
+    align-items: center;  
+	align-content: flex-start; 
+}
+.p{
+	flex: 2;
+	order: 1;
+}
+.header{
+	display: flex;
+	align-items: center;
+}
+.id{
+
+	display: contents;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+video{
+	display: flex;
+	padding:3px;
+	margin:10px;
+	border: 2px solid #336600;
+	border-radius:12px;
+
+}
+#lista{
+	float: left;
+    width: 1920px;
+    padding: 0;
+    margin-left: 100px;
+    list-style: none;
+}
+a{
+text-align: center;
+color: white;
+text-decoration: none;
+}
+#lista1{
+	margin-left: 14.5%;
+}
+.main{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
