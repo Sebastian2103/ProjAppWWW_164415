@@ -15,3 +15,12 @@ align-items: center;
 -ms-user-select: none;
 user-select: none:
 }
+.main{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+	background-color: #0f6d0f;
+	gap: 10px 20px;
+}
