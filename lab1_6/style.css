@@ -1,0 +1,206 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #606C38;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: normal;
+    display: flex;
+    color: #FEFAE0;
+    cursor: url('pliki/domyslny.cur'), pointer;
+
+}
+#main{
+    height: 100%;
+    background-color: #283618;
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+#navbar {
+    width: 300px;
+    /*  background-color: #283618;*/
+    background-color: #DDA15E;
+    color: #FEFAE0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+#navbar a, #dropdown-btn{
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FEFAE0;
+    display: block;
+    font-size: 18px;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+.dropdown-container {
+  display: none;
+  background-color: #BC6C25;
+}
+#navbar a:hover, #navbar #dropdown-btn:hover {
+    color: #283618;
+    cursor: url('pliki/Move.cur'), pointer;
+  }
+
+#main h1{
+    color: #FEFAE0;
+    text-shadow: 1px;
+}
+.blocks1{
+  display: flex;
+  align-items:center;
+}
+.text{
+  flex-grow: 1;
+  padding: 10px;
+
+}
+.image{
+  max-width: 300px;
+  
+  padding: 10px;
+}
+
+th{
+	text-align:center;
+	font-size:30px;
+}
+.units img{
+    width:130px;
+    height:130px;
+    margin-left: auto;
+}
+table {
+	flex: 0 0 calc(33.3333% - 20px);
+	margin: 10px;
+}
+
+.units {
+  vertical-align: top;
+  width: 28%;
+  display: table;
+  border: 2px solid #336600;
+  border-radius: 12px;
+  float: left;
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 403px;
+  align-self: flex-start;
+}
+.heroes table {
+  border: 2px solid #336600;
+  border-radius: 12px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 500px;
+  align-self: flex-start;
+}
+.units-block
+{
+  display: flex;
+	flex-wrap:wrap;
+  justify-content: center;
+  align-content: space-between;
+	width:auto;
+	height:auto;
+  gap:30px;
+}
+.units-block h1{
+  display: flex;
+	padding: 10px;
+  justify-content: center;
+	margin: 5px;
+}
+
+.nav nav {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  background-color: #DDA15E;
+  color: #FEFAE0;
+  padding: 20px;
+}
+
+.nav nav button {
+  padding: 15px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: #FEFAE0;
+  font-size: 18px;
+  display: block;
+  background: none;
+  border:none;
+  transition: color .5s;
+  
+}
+
+.nav nav button:hover {
+  color: #283618;
+  cursor: url('pliki/Move.cur'), pointer;
+}
+  #academy_h{
+    display: none;
+    flex-wrap:wrap;
+    width:auto;
+    height:auto;
+  }
+  #academy_h h1{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+  }
+  #necropolis_h{
+    display:none;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+  }
+  #dungeon_h{
+    display:none;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+  }
+  #sylvan_h{
+    display:none;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+  }
+  #haven_h{
+    display:none;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+  }
+  #inferno_h{
+    display:none;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+  }
+  #stronghold_h{
+    display:none;
+    width:100%;
+    flex-wrap:wrap;
+    height:100%;
+  }
+  #fortress_h{
+    display:none;
+    width:100%;
+    flex-wrap:wrap;
+    height:100%;
+  }
