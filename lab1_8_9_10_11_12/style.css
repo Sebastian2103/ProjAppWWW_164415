@@ -1,0 +1,275 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #606C38;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: normal;
+    display: flex;
+    color: #FEFAE0;
+    cursor: url('pliki/domyslny.cur'), pointer;
+
+}
+#main{
+    height: 100%;
+    background-color: #283618;
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+#main p{
+  text-align: justify;
+}
+#navbar {
+    width: 300px;
+    /*  background-color: #283618;*/
+    background-color: #DDA15E;
+    color: #FEFAE0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+#navbar a, #dropdown-btn{
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FEFAE0;
+    display: block;
+    font-size: 18px;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+.dropdown-container {
+  display: none;
+  background-color: #BC6C25;
+}
+#navbar a:hover, #navbar #dropdown-btn:hover {
+    color: #283618;
+    cursor: url('pliki/Move.cur'), pointer;
+  }
+
+#main h1{
+    color: #FEFAE0;
+    text-shadow: 1px;
+}
+.blocks1{
+  display: flex;
+  align-items:center;
+}
+.text{
+  flex-grow: 1;
+  padding: 10px;
+
+}
+.characteristics ul {
+  list-style: none;
+  padding: 0;
+}
+
+.characteristics li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.characteristics li span {
+  font-weight: bold;
+  margin-right: 5px;
+  min-width: 150px;
+  display: inline-block;
+}
+.image{
+  max-width: 300px;
+  
+  padding: 10px;
+}
+
+th{
+	text-align:center;
+	font-size:30px;
+}
+.units img{
+    width:130px;
+    height:130px;
+    margin-left: auto;
+}
+table {
+	flex: 0 0 calc(33.3333% - 20px);
+	margin: 10px;
+}
+
+.units {
+  vertical-align: top;
+  width: 28%;
+  display: table;
+  border: 2px solid #336600;
+  border-radius: 12px;
+  float: left;
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 403px;
+  align-self: flex-start;
+}
+.heroes table {
+  border: 2px solid #336600;
+  border-radius: 12px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 500px;
+  align-self: flex-start;
+}
+.units-block
+{
+  display: flex;
+	flex-wrap:wrap;
+  justify-content: center;
+  align-content: space-between;
+	width:auto;
+	height:auto;
+  gap:30px;
+}
+.units-block h1{
+  display: flex;
+	padding: 10px;
+  justify-content: center;
+	margin: 5px;
+}
+
+.nav nav {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  background-color: #DDA15E;
+  color: #FEFAE0;
+  padding: 20px;
+}
+
+.nav nav button {
+  padding: 15px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: #FEFAE0;
+  font-size: 18px;
+  display: block;
+  background: none;
+  border:none;
+  transition: color .5s;
+  
+}
+
+.nav nav button:hover {
+  color: #283618;
+  cursor: url('pliki/Move.cur'), pointer;
+}
+  #academy_h{
+    display: none;
+    flex-wrap:wrap;
+    width:auto;
+    height:auto;
+  }
+  #academy_h h1{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+  }
+  #necropolis_h{
+    display:none;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+  }
+  #dungeon_h{
+    display:none;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+  }
+  #sylvan_h{
+    display:none;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+  }
+  #haven_h{
+    display:none;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+  }
+  #inferno_h{
+    display:none;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+  }
+  #stronghold_h{
+    display:none;
+    width:100%;
+    flex-wrap:wrap;
+    height:100%;
+  }
+  #fortress_h{
+    display:none;
+    width:100%;
+    flex-wrap:wrap;
+    height:100%;
+  }
+  #images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #atributes {
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+.formularz table {
+    width: 100%;
+}
+.formularz {
+  width: 100%; 
+  box-sizing: border-box; 
+  margin-top: 10px;
+}
+
+.formularz textarea {
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+}
+.formularz input[type="text"],
+.formularz input[type="submit"] {
+    width: calc(100% - 20px);
+}
+.formularz input[type="submit"] {
+    width: 100%;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}

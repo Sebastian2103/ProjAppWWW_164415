@@ -1,0 +1,89 @@
+body{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: aliceblue;
+    text-shadow:2px 2px 4px black ;
+}
+table a{
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    display: block;
+    font-size: 18px;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+a :hover{
+      color: white;
+      transition: 0.2s;
+  }
+.dodaj{
+    display: flex;
+    align-items: center;
+}
+.dodaj input{
+max-width: 60%;
+}
+.naglowek a{
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    display: block;
+    font-size: 18px;
+    border-radius: 52%;
+    background: red;
+    cursor: pointer;
+    outline: none;
+  }
+  .naglowek a:hover{
+      background-color: rgb(204, 60, 60);
+      transition: 0.2s;
+  }
+
+.dodaj input[type="submit"] {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3498db;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.dodaj input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    }
+.cart {
+    width: 50%;
+    position: relative;
+}
+.total-amount {
+    position: absolute;
+    bottom: -40px;
+}
+
+.products {
+    width: 45%;
+}
+.add-to-cart-form{
+    margin-top: 20px;
+}
