@@ -14,7 +14,6 @@
         die("Błąd połączenia z bazą danych: " . $conn->connect_error);
     }
 
-    include('ZarzadzanieProduktami.php'); // Plik z klasą ZarzadzanieProduktami
     class ZarzadzanieProduktami {
         private $conn;
         

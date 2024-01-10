@@ -129,7 +129,7 @@
     echo '<h2>Lista kategorii:</h2>';
     $zarzadzanie->pokazKategorie();
 
-    // Tutaj możesz zamknąć połączenie z bazą danych, np. $conn->close();
+    
     ?>
 
 </body>
