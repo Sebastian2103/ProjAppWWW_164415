@@ -211,9 +211,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $message = 'Twoje nowe hasło: ' . $nowe_haslo;
     
             if (mail($email, $subject, $message)) {
-                return true; // Wysłano pomyślnie nowe hasło
+                return true; 
             } else {
-                return false; // Błąd podczas wysyłania maila
+                return false;
             }
         } else {
             return false; // Brak użytkownika o podanym adresie email w bazie danych
@@ -235,7 +235,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (PrzypomnijHaslo($mysqli, $email)) {
             echo "Nowe hasło zostało wysłane na adres email.";
         } else {
-            echo "Błąd przypominania hasła.";
+            echo "Nowe hasło zostało wysłane na adres email.";
     }
 }
 
